@@ -1,11 +1,11 @@
+<h1>Accordion realizado con Vanilla JS + CSS. </h1>
 
-Accordion realizado con Vanilla JS + CSS.
-Como usarlo?
-1)
-inculir los archivos 
+Como usarlo?<br>
+1) Incluir los archivos :<br>
+```
 <link href="accordion.css">
 <script src="accordion.js"></script>
-
+```
 
 2) Usar esta estructura en tu HTML
 ```
