@@ -1,10 +1,10 @@
 
-	const faqbox = document.querySelector('#faqbox');											
-	const faqsection = document.querySelector('#faq');			
+	const jsa = document.querySelector('#jsa');											
+	
 
 	
 	// accordion
-	faqbox.addEventListener('click',function(e){
+	jsa.addEventListener('click',function(e){
 		//console.dir(e.target);
 		e.target.parentElement.classList.toggle('open');				
 	})	

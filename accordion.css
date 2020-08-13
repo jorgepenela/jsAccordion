@@ -1,25 +1,18 @@
-		
 :root {
   --color1: tomato;
   --color2: navy;
 }
-
-
-#faq{	
-	background: #fff;			
-	padding: 50px 0px;
-}
-.faqitem{
+.jsaitem{
 	background: #fff;				
 	margin-bottom: 10px;
 	box-shadow: 1px 1px 8px #99999961;
 	/* height: 66px;
 	overflow-y: hidden; */
 }
-.faqitem.open{
+.jsaitem.open{
 	height: auto;
 }
-.faqitem .faqtitle{
+.jsaitem .jsatitle{
 	font-weight: bold;
 	margin: 0px;
 	padding: 20px;
@@ -27,24 +20,27 @@
 	cursor: pointer;
 	color: #414042;
 }
-.faqitem .faqtitle .masmenos{
+
+/*Signo al lado del titulo*/ 
+.jsaitem .jsatitle .masmenos{
 	color: var(--color1);				
 }
-.faqitem .faqtitle .masmenos:after{
+.jsaitem .jsatitle .masmenos:after{
 	content: "+";
 }
-.faqitem.open .faqtitle .masmenos:after{
+.jsaitem.open .jsatitle .masmenos:after{
 	content: "-";
 }
-.faqitem .content{
+
+.jsaitem .jsacontent{
 	max-height: 0px;
 	overflow-y: hidden;					
 	opacity: 0;
 	transition: max-height 0.5s, opacity 0.2s;
 	
 }
-.faqitem.open .content{				
-	max-height: 1000px;
+.jsaitem.open .jsacontent{				
+	max-height: 10000px;
 	height: auto;
 	padding: 30px 50px;
 	color: #404142; 
@@ -54,10 +50,7 @@
 
 @media screen and (max-width: 600px){
 
-	#faq{
-		padding: 40px 20px;
-	}
-	.faqitem.open .content{
+	.jsaitem.open .jsacontent{
 		padding: 20px;
 	}
 	
