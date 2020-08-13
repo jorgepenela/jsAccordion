@@ -1,14 +1,14 @@
-Accordion realizado con Vanilla JS + CSS. 
 
+Accordion realizado con Vanilla JS + CSS.
 Como usarlo?
 1)
-inclir los archivos 
+inculir los archivos 
 <link href="accordion.css">
 <script src="accordion.js"></script>
 
 
 2) Usar esta estructura en tu HTML
-
+```
 <div id="jsa">
 	<!-- contenido1 -->
 	<div class="jsaitem"> 
@@ -22,5 +22,6 @@ inclir los archivos
 	</div>
 </div>
 
+```
 .masmenos es opcional, es para que aparezca el signo indicando si hay o no contenido oculto.
 Se puede modicicar el signo desde el CSS
